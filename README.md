@@ -23,4 +23,4 @@ Use the lab's Launch Application control for port 5000. Local runs bind to `127.
 python3 -m unittest discover -s tests -v
 ```
 
-Offline boundary tests explicitly mock network responses. The five tests in `test_emotion_detection.py` call the real Watson service and must run in the lab. Mock results are never presented as live predictions. Live verification and project submission are pending.
+Offline boundary tests explicitly mock network responses. The five tests in `test_emotion_detection.py` call the real Watson service and must run in the lab. Mock results are never presented as live predictions. Live verification passed in the IBM Skills Network lab: the raw response check, formatted and package checks, five required emotion cases, eight boundary tests, and server.py Pylint 10/10. Final submission is pending evidence capture and grading.
