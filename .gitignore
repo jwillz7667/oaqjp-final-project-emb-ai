@@ -131,3 +131,4 @@ dmypy.json
 # Local project workspace
 .venv/
 .DS_Store
+.lab-deps/
